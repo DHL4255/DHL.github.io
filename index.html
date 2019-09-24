@@ -5,13 +5,21 @@
 <body>
 <h1>Hello World</h1>
 <p>Yeetus Deletus</p>
-<div class="pure-g">
-<div class="pure-u-1-1">
-<a class="pure-button link-button button-green" href="https://www.google.com.au">Google</a>
-</div>
-<div class="pure-u-1-1">
-<a class="pure-button link-button button-green" href="https://gmail.com">Gmail</a>
-</div>
+<div>
+<style scoped>
+.button-Google,
+.button-Gmail {
+color: white;
+}
+.button-Google {
+background: rbg(28, 184, 65);
+}
+.button-Gmail {
+background: rbg(28, 184, 65);
+}
+</style>
+<a> class="button-Google pure-button">Google</a>
+<a> class="button-Gmail pure-button">Gmail</a>
 </div>
 </body>
 </head>
